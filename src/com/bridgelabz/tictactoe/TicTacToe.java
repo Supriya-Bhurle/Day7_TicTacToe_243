@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class TicTacToe {
     public static void main(String[] args) {
         char[][] gameBoard = {{'_', '|', '_', '|', '_'}, {'_', '|', '_', '|', '_'}, {'_', '|', '_', '|', '_'}};
-        playerMove(gameBoard);
+        updateBoard(2,2,gameBoard);
         playerMove(gameBoard);
     }
 
