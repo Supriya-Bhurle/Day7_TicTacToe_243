@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31cd7faa-e20d-4e42-8bb0-0f5747fe0904" name="Changes" comment="" />
+    <list default="true" id="31cd7faa-e20d-4e42-8bb0-0f5747fe0904" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/bridgelabz/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelabz/tictactoe/TicTacToe.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,8 +81,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/bridgelabz/tictactoe/TicTacToe.java</url>
-          <line>27</line>
+          <line>29</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/bridgelabz/tictactoe/TicTacToe.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
