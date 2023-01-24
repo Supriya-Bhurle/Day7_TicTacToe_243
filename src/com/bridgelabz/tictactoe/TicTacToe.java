@@ -1,22 +1,23 @@
 package com.bridgelabz.tictactoe;
 
+import java.util.Scanner;
+
 public class TicTacToe {
     public static void main(String[] args) {
         char[][] gameBoard = {{'_', '|', '_', '|', '_'}, {'_', '|', '_', '|', '_'}, {'_', '|', '_', '|', '_'}};
-        printBOARD(gameBoard);
-        updateBoard(1,1,gameBoard);
-        
+        playerMove(gameBoard);
+        playerMove(gameBoard);
     }
-    private static void printBOARD(char[][] gameBoard) {
+
+    public static void printBOARD(char [][] gameBoard){
         for (int i = 0; i < gameBoard.length; i++) {
             for (int j = 0; j < gameBoard[i].length; j++) {
                 System.out.print(gameBoard[i][j] + " ");
-
             }
             System.out.println();
         }
     }
-    private static void updateBoard(int position, int player, char[][] gameBoard) {
+    public static void updateBoard(int position,int player,char[][] gameBoard){
         char character;
         if (player==1){
             character='x';
@@ -63,5 +64,11 @@ public class TicTacToe {
             default:
                 break;
         }
+    }
+    public static void playerMove(char[][] gameBoard) {
+        System.out.println("Please make a move(1-9) : ");
+        Scanner input = new Scanner(System.in);
+        int move = input.nextInt();
+        updateBoard(move, 1, gameBoard);
     }
 }
